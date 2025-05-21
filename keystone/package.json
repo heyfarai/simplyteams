@@ -1,0 +1,20 @@
+{
+  "name": "keystone-app",
+  "version": "1.0.3",
+  "private": true,
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.19.4",
+    "@keystone-6/auth": "^8.0.0",
+    "@keystone-6/core": "^6.0.0",
+    "@keystone-6/fields-document": "^9.0.0",
+    "@prisma/client": "^5.22.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
